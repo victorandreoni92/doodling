@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="./settings/settingsStyle.css">
+    <link rel="stylesheet" type="text/css" href="./drawing/drawingStyle.css">
+
+    <script src="./ext-libs/jquery-3.5.0.min.js"></script>
+    <script src="./ext-libs/d3.min.js" charset="utf-8"></script>
+    
+    <script src="./drawing/drawing.js" charset="utf-8"></script>
+    <script src="./settings/settings.js" charset="utf-8"></script>
+
+  </head>
+  <body id="body" onload="initialize();">
+    <div id="settings" class="settings">
+      <select id="sett_color_select">
+        <option value="RGB">RGB</option>
+        <option value="Blue">Blue</option>
+      </select>
+    </div>
+    <div id="canvas"></div>
+  </body>
+</html>

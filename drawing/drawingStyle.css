@@ -1,0 +1,7 @@
+/* Style for canvas */
+#canvas {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: -1;
+}
